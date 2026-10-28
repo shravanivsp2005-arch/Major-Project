@@ -1,0 +1,52 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python environments and generated files
+.venv*/
+venv*/
+**/.venv*/
+**/venv*/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# JavaScript dependencies and generated builds
+node_modules/
+**/node_modules/
+build/
+**/build/
+dist/
+**/.cache/
+
+# Local tooling and generated reports
+.emergent/
+**/.emergent/
+*.log
+test_reports/
+**/test_reports/
+
+# Large/local model and dataset artifacts
+*.pt
+*.onnx
+*.pkl
+*.joblib
+*.h5
+*.safetensors
+*.xlsx
+!Major-Project/backend/ml/models/*.joblib
+!Major-Project/backend/yolov8n.pt
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
